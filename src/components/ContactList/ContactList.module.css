@@ -1,0 +1,26 @@
+ul,
+ol {
+    list-style: none;
+    padding: 0px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+    gap: 105px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #3a3a3a;
+}
